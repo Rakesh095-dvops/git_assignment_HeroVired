@@ -111,3 +111,40 @@ Your branch is up to date with 'origin/main'.
 nothing to commit, working tree clean
 
 ```
+### d. Implement a feature by creating a new branch called ‘feature/sqrt’. --------- [Done]
+
+```
+PS ~git_assignment_HeroVired> git checkout -b feature/sqrt
+Switched to a new branch 'feature/sqrt'
+PS ~git_assignment_HeroVired> git branch
+  dev
+* feature/sqrt
+  main
+PS ~git_assignment_HeroVired> git add .     
+PS ~git_assignment_HeroVired> git status
+On branch feature/sqrt
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   CalculatorPlus.py
+        modified:   README.md
+
+PS ~git_assignment_HeroVired> git commit -m "feat: Add sqrt function to calculator"              
+[feature/sqrt f5db45d] feat: Add sqrt function to calculator
+ 2 files changed, 15 insertions(+), 15 deletions(-)
+
+PS ~ git push origin feature/sqrt
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 483 bytes | 483.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'feature/sqrt' on GitHub by visiting:
+remote:      https://github.com/Rakesh095-dvops/git_assignment_HeroVired/pull/new/feature/sqrt
+remote:
+To https://github.com/Rakesh095-dvops/git_assignment_HeroVired.git
+ * [new branch]      feature/sqrt -> feature/sqrt
+
+```
