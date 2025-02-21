@@ -42,3 +42,13 @@ To https://github.com/Rakesh095-dvops/git_assignment_HeroVired.git
  * [new branch]      dev -> dev
 
 ```
+##### SnapShot 
+![alt text](Images/dev_branch_push.png)
+
+```
+push commit and updated the dev branch 
+PS ~\git_assignment_HeroVired git status
+On branch dev
+nothing to commit, working tree clean
+
+```
