@@ -52,7 +52,7 @@ On branch dev
 nothing to commit, working tree clean
 
 ```
-#### b.1. Merge this branch with the main branch and make a release of version 1 of the ‘calculator plus app’. --------- [Done]
+### C. Merge this branch with the main branch and make a release of version 1 of the ‘calculator plus app’. --------- [Done]
 1. Switch to the main branch:
 2. Make sure your main branch is up-to-date
 3. Merge the 'dev' branch into 'main'
