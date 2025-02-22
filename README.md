@@ -148,3 +148,36 @@ To https://github.com/Rakesh095-dvops/git_assignment_HeroVired.git
  * [new branch]      feature/sqrt -> feature/sqrt
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Q2 
