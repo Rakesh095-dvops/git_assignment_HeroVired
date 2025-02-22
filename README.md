@@ -6,6 +6,8 @@
 ### a. Create a repository name: git_assignment_HeroVired --------- [Done] 
 ```
 Completed and create branch from Github and clone the private Repository - https://github.com/Rakesh095-dvops/git_assignment_HeroVired.git
+
+git clone <git url>
 ```
 ### b. Create a ‘dev’ branch --------- [Done]
 ```
@@ -243,3 +245,12 @@ To https://github.com/Rakesh095-dvops/git_assignment_HeroVired.git
  * [new branch]      lfs -> lfs
 
 ```
+### b. Clone the repository on another machine to verify that the binary files are downloaded correctly.----[Done]
+  - clone the Git Repository ```git clone <repository_url>```
+  - install Git LFS ``` git lfs install ```
+  - checkout the Relevant Branch i.e lfs```git checkout <branch_name> ```
+  - Verify the File Size 
+    ```
+    PS ~> Get-ChildItem .\my_large_file.dat | ForEach-Object {$_.Length / (1MB)}
+    300
+    ```
