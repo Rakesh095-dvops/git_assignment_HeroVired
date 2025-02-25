@@ -7,7 +7,7 @@
 ```
 Completed and create branch from Github and clone the private Repository - https://github.com/Rakesh095-dvops/git_assignment_HeroVired.git
 ```
-### b. Create a ‘dev’ branch --------- [Done]
+### b. Create a ‘dev’ branch .Added the code and push to dev branch --------- [Done]
 ```
 PS ~\git_assignment_HeroVired> git branch dev 
 PS ~\git_assignment_HeroVired> git branch 
@@ -16,7 +16,7 @@ PS ~\git_assignment_HeroVired> git branch
 PS ~\git_assignment_HeroVired> git checkout dev    
 Switched to branch 'dev'
 ```
-#### b.1. Added the code and push to dev branch --------- [Done]
+
 ```
 PS ~\git_assignment_HeroVired> git ls-files
 .gitignore
@@ -52,7 +52,7 @@ On branch dev
 nothing to commit, working tree clean
 
 ```
-#### b.1. Merge this branch with the main branch and make a release of version 1 of the ‘calculator plus app’. --------- [Done]
+#### C. Merge this branch with the main branch and make a release of version 1 of the ‘calculator plus app’. --------- [Done]
 1. Switch to the main branch:
 2. Make sure your main branch is up-to-date
 3. Merge the 'dev' branch into 'main'
@@ -104,10 +104,57 @@ Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Rakesh095-dvops/git_assignment_HeroVired.git
    41768b9..457a03a  main -> main
  * [new tag]         v1.0 -> v1.0
-PS ~git_assignment_HeroVired> git status
-On branch main
-Your branch is up to date with 'origin/main'.
+```
+### d. Add any of your classmates as collaborators. -[Done]
+### e. Implement a feature by creating a new branch called ‘feature/sqrt’. -[Done]
+### f. Add the ‘sqrt’ code to it.- [Done]
+  1. @ssptr007 added as collborator . As a collborator i have created a pull request and shared to @ssptr007 & vice Versa. 
+  2. I have cloned @ssptr007 repo main branch.  
+  3. create a feature branch and add the code ```git checkout -b feature/sqrt``
+  4. Implement the Square Root Feature 
+        1. ```git add   ```
+        2. ```git commit -m {comment}```
+### g. While you are working on this feature, imagine that one critical bug is reported in the main branch, and you need to switch back to the ‘dev’ branch, create fixes, and apply them while keeping your ‘feature/sqrt’ branch up-to-date.-[Done]
 
-nothing to commit, working tree clean
+  1. cloned our own repository again ```git clone {url}```
+  2.  ```git checkout dev```
+  3.  ```git pull origin dev```to Ensure your local dev branch is up-to-date
+  4. Make bug fix directly on the `dev` branch 
+  5. once done commit the changes ,test the code.
+### h. After completing the feature implementation and ensuring that the application works correctly, create a pull request targeting the main branch.-[Done]
+```
+Create a pull request using Github and UI and test the same.
 
 ```
+
+### i. Request a code review from a team member and make any necessary improvements based on the review feedback.-[Done]
+```
+Create a pull request and share the details to @ssptr007 
+```
+
+### j. Once the code reviewer approves your pull request, merge the "feature/sqrt" branch into the ‘dev’ branch. -[Done]
+```
+Code reviewer approve the request and add necessary comments from github GUI.
+```
+
+### k. Finally, do the testing in the ‘dev’ branch itself and merge it into the ‘main’ branch and create a ‘version 2’ release.-[Done]
+1. rechecking the merge between feqture/Sqrt and dev locally using VS code. 
+2. test dev branch code. 
+3. test main branch code. 
+4. As exception was outputing the results. comment test scenarios to have clean output. 
+5. Now merge dev and main branch 
+6. create tags v2.0 
+7. Also create release tags v2.0 from GUI.
+
+#### below mentioned are the list of commands used for above h -k 
+```
+git checkout {branch}
+git pull origin {branch}
+git merge {branch}
+git commit -m {comment}
+git push origin main
+git tag -a v2.0 -m "Release v2.0: Includes square root feature and bug fixes"
+git push origin v2.0
+git push origin --tags
+```
+![alt text](Images/ReleaseV2.0Q1.png)
