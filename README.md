@@ -412,8 +412,13 @@ To github.com:Rakesh095-dvops/git_assignment_HeroVired.git
  ```
 i. Create Pull Requests and review and merge everything to main branch
   - Click the "Compare & pull request" button. from repository. 
-      - geometry-calculator branch to feature/rectangle-area
+      - geometry-calculator branch to feature/rectangle-area 
       - geometry-calculator branch to feature/circle-area 
   - once review has been completed and merged geometry-calculator 
   - Set the base branch to `dev` (if your target branch is 'dev') ,create  "Compare & pull request" with  geometry-calculator 
-  - once review and merged to `dev` to `main`
+  - once review and merged to `dev`
+  - once dev has all the py files merge and resolve the conflict with main and push everything to main branch
+
+
+![alt text](Images/MergingSnapshot.png)
+
